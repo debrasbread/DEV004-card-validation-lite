@@ -7,24 +7,16 @@
 </head>
 
 <body>
+
+  <script src="app.js"></script>
+
   <input id="cardnumber"></input>
   <button onclick="validate()">Validar</button>
   <div id="result"></div>
-  <script lang="javascript">
-    function validate() {
-      const valid = isValid(document.getElementById("cardnumber").value)
-      if (valid) {
-        // Show success in div#result
-      }
-      else {
-        // Show error message in div#result
-      }
-    }
+  
 
-    function isValid(creditCardNumber){
-      // is creditCardNumber valid?
-      return false
-    }
+
+  
   </script>
 </body>
 
