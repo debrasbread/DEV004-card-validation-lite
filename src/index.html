@@ -1,23 +1,21 @@
-<!DOCTYPE html>
-<html>
 
+<!DOCTYPE html> 
+<html>
 <head>
   <meta charset="utf-8">
-  <title>Tarjeta de crédito válida</title>
-</head>
-
+  <link rel="shortcut icon" href="#">
+  <title>Validación de tarjeta de crédito</title>
+  <!-- <link href="style.css" rel="stylesheet" type="text/css"/> -->
+   </head>
 <body>
-
-  <script src="app.js"></script>
-
-  <input id="cardnumber"></input>
-  <button onclick="validate()">Validar</button>
-  <div id="result"></div>
-  
-
-
-  
-  </script>
-</body>
-
+  <script src="script.js"></script>
+  <!-- Caja para que el usuario introduzca el número de su tarjeta -->
+  <p><h3>Validación de tarjeta de crédito</h3></p>
+          <div>
+          <label for="cardnumber">Introduce el número de tu tarjeta:</label>
+          <p><input id="cardnumber" type="text" placeholder="Número de 16 dígitos"></input>
+      <button onclick="validate()">Validar</button></p>
+    </div>
+    <div id="result"></div>      
+  </body>
 </html>
